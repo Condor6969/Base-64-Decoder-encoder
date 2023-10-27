@@ -17,7 +17,7 @@ def base64_decoder(encoded_str):
     return decoded_str
 
 # put your data to be encoded after data on the first line
-data = "773719064618467329" # data to be encoded
+data = "" # data to be encoded
 encoded_data = base64_encoder(data)
 print("Encoded data:", encoded_data)
 
